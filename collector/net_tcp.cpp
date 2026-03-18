@@ -1,4 +1,4 @@
-cat tcpx.cpp
+// tcpx.cpp
 #include <unistd.h>
 #include <vector>
 #include <iostream>
@@ -89,7 +89,6 @@ std::vector<std::string> split(std::string const &input){
 	      
 		return{};
 	}
-	//--------
 	
 	std::vector<struct TcpEntry> result;
 	std::vector<std::string> tokens;
